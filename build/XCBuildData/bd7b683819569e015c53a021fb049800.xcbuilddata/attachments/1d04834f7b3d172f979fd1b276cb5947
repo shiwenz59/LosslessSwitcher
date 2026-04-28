@@ -1,0 +1,4 @@
+module _AtomicsShims {
+umbrella header "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/swift-atomics/Sources/_AtomicsShims/include/_AtomicsShims.h"
+export *
+}

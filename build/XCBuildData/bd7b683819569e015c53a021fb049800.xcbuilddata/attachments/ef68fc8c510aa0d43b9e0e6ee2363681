@@ -1,0 +1,4 @@
+module CIMediaRemote {
+umbrella "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/Sources/CIMediaRemote/include"
+export *
+}

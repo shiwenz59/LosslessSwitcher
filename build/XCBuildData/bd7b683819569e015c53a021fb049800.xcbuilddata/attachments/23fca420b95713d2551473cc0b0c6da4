@@ -1,0 +1,26 @@
+{
+  "" : {
+    "const-values" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary.swiftconstvalues",
+    "dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary.d",
+    "diagnostics" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary.dia",
+    "emit-module-dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary-emit-module.dia",
+    "pch" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaRemoteAdapter-primary.swiftdeps"
+  },
+  "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/Sources/MediaRemoteAdapter/MediaController.swift" : {
+    "index-unit-output-path" : "/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaController.o",
+    "llvm-bc" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaController.bc",
+    "object" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/MediaController.o"
+  },
+  "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/Sources/MediaRemoteAdapter/TrackInfo.swift" : {
+    "index-unit-output-path" : "/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/TrackInfo.o",
+    "llvm-bc" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/TrackInfo.bc",
+    "object" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/TrackInfo.o"
+  },
+  "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/DerivedSources/resource_bundle_accessor.swift" : {
+    "index-unit-output-path" : "/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/resource_bundle_accessor.o",
+    "llvm-bc" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/resource_bundle_accessor.bc",
+    "object" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/mediaremote-adapter/build/MediaRemoteAdapter.build/Release/MediaRemoteAdapter.build/Objects-normal/arm64/resource_bundle_accessor.o"
+  }
+}

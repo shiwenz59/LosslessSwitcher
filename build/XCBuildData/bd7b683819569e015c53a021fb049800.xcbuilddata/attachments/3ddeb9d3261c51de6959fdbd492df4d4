@@ -1,0 +1,4 @@
+module SimplyCoreAudioC {
+umbrella "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/SimplyCoreAudio/Sources/SimplyCoreAudioC"
+export *
+}

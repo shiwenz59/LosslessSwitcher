@@ -1,0 +1,101 @@
+{
+  "" : {
+    "const-values" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary.swiftconstvalues",
+    "dependencies" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary.d",
+    "diagnostics" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary.dia",
+    "emit-module-dependencies" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary-emit-module.dia",
+    "pch" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/LosslessSwitcher-primary.swiftdeps"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/AppDelegate.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppDelegate.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppDelegate.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppDelegate.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/AppVersion.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppVersion.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppVersion.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AppVersion.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/AudioStreamBasicDescription+Equatable.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AudioStreamBasicDescription+Equatable.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AudioStreamBasicDescription+Equatable.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/AudioStreamBasicDescription+Equatable.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/CMPlayerStuff.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CMPlayerStuff.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CMPlayerStuff.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CMPlayerStuff.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/Console.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Console.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Console.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Console.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/ContentView.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ContentView.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ContentView.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ContentView.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/CurrentUser.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CurrentUser.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CurrentUser.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/CurrentUser.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/Defaults.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Defaults.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Defaults.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/Defaults.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/DeviceMenuItem.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/DeviceMenuItem.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/DeviceMenuItem.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/DeviceMenuItem.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/MediaRemoteController.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaRemoteController.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaRemoteController.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaRemoteController.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/MediaTrack.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaTrack.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaTrack.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MediaTrack.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/MenuBarController.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuBarController.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuBarController.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuBarController.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/MenuView.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuView.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuView.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/MenuView.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/OutputDevices.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/OutputDevices.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/OutputDevices.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/OutputDevices.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/QualityApp.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/QualityApp.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/QualityApp.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/QualityApp.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/SampleRateLabel.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/SampleRateLabel.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/SampleRateLabel.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/SampleRateLabel.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/Quality/ScriptableApplicationCommand.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ScriptableApplicationCommand.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ScriptableApplicationCommand.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/ScriptableApplicationCommand.o"
+  },
+  "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "index-unit-output-path" : "/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/shiwenzhu/Documents/GitHub/LosslessSwitcher/build/Quality.build/Release/LosslessSwitcher.build/Objects-normal/x86_64/GeneratedAssetSymbols.o"
+  }
+}

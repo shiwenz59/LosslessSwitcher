@@ -1,0 +1,4 @@
+module PrivateMediaRemote {
+umbrella header "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/MediaRemote/Sources/PrivateMediaRemote/PrivateMediaRemote.h"
+export *
+}

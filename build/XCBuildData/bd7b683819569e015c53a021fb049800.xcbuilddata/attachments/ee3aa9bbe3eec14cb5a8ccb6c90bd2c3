@@ -1,0 +1,16 @@
+{
+  "" : {
+    "const-values" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary.swiftconstvalues",
+    "dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary.d",
+    "diagnostics" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary.dia",
+    "emit-module-dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary-emit-module.dia",
+    "pch" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep-primary.swiftdeps"
+  },
+  "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/Sources/Sweep/Sweep.swift" : {
+    "index-unit-output-path" : "/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep.o",
+    "llvm-bc" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep.bc",
+    "object" : "/Users/shiwenzhu/Library/Developer/Xcode/DerivedData/Quality-eukimbzrboquggfnhhebhlyyxkgg/SourcePackages/checkouts/Sweep/build/Sweep.build/Release/Sweep.build/Objects-normal/arm64/Sweep.o"
+  }
+}

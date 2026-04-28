@@ -18,34 +18,6 @@ struct MenuView: View {
             
             Divider()
             
-            Button {
-                defaults.userPreferIconStatusBarItem.toggle()
-            } label: {
-                Text(defaults.statusBarItemTitle)
-            }
-            
-            Button {
-                defaults.userPreferBitDepthDetection.toggle()
-            } label: {
-                HStack {
-                    Text("Bit Depth Switching")
-                    if defaults.userPreferBitDepthDetection {
-                        Image(systemName: "checkmark")
-                    }
-                }
-            }
-            
-            Button {
-                defaults.userPreferSampleRateMultiples.toggle()
-            } label: {
-                HStack {
-                    Text("Prefer Closest Sample Rate Multiple")
-                    if defaults.userPreferSampleRateMultiples {
-                        Image(systemName: "checkmark")
-                    }
-                }
-            }
-            
             Menu {
                 Button {
                     outputDevices.selectedOutputDevice = nil
@@ -70,39 +42,6 @@ struct MenuView: View {
                 }
             } label: {
                 Text("Selected Device")
-            }
-            
-            Menu {
-                Text("Version - \(currentVersion)")
-                Text("Build - \(currentBuild)")
-            } label: {
-                Text("About")
-            }
-            
-            Menu {
-                Button("Select Script...") {
-                    let panel = NSOpenPanel()
-                    panel.canChooseFiles = true
-                    panel.canChooseDirectories = false
-                    panel.allowsMultipleSelection = false
-                    panel.message = "Select a script that should be invoked when sample rate changes."
-                    
-                    panel.begin { response in
-                        let path = panel.url?.path
-                        DispatchQueue.main.async { [weak defaults] in
-                            defaults?.shellScriptPath = path
-                        }
-                    }
-                }
-                
-                Button("Clear Selection") {
-                    defaults.shellScriptPath = nil
-                }
-                
-                Text(defaults.shellScriptPath ?? "No selection")
-                
-            } label: {
-                Text("Scripting")
             }
             
             Button {

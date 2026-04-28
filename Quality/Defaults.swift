@@ -17,7 +17,7 @@ class Defaults: ObservableObject {
     
     private init() {
         UserDefaults.standard.register(defaults: [
-            kUserPreferIconStatusBarItem : true,
+            kUserPreferIconStatusBarItem : false,
             kUserPreferBitDepthDetection : false,
             kUserPreferSampleRateMultiples : false
         ])

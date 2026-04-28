@@ -24,7 +24,7 @@ class MediaRemoteController {
         
         controller.onTrackInfoReceived = { [weak outputDevices] trackInfo in
             print("track \(trackInfo.payload.uniqueIdentifier) \(trackInfo.payload.title ?? "nil")")
-            DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            DispatchQueue.main.async {
                 guard let outputDevices else { return }
                 outputDevices.trackDidChange(trackInfo)
             }

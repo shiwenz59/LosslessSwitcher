@@ -80,7 +80,7 @@ class OutputDevices: ObservableObject {
     func renewTimer() {
         if timerCancellable != nil { return }
         timerCancellable = Timer
-            .publish(every: 2, on: .main, in: .default)
+            .publish(every: 1, on: .main, in: .default)
             .autoconnect()
             .sink { [weak self] _ in
                 guard let self = self else { return }
@@ -221,7 +221,7 @@ class OutputDevices: ObservableObject {
 //            }
         }
         else if !recursion {
-            processQueue.asyncAfter(deadline: .now() + 1) {
+            processQueue.asyncAfter(deadline: .now() + 0.5) {
                 self.switchLatestSampleRate(recursion: true)
             }
         }
@@ -302,13 +302,42 @@ class OutputDevices: ObservableObject {
         }
     }
     
+    private func applyScriptSampleRate(_ sampleRate: Double) {
+        let defaultDevice = self.selectedOutputDevice ?? self.defaultOutputDevice
+        guard let supported = defaultDevice?.nominalSampleRates else { return }
+
+        var nearest = supported.min(by: { abs($0 - sampleRate) < abs($1 - sampleRate) })
+
+        if Defaults.shared.userPreferSampleRateMultiples,
+           let nearestSampleRate = nearest,
+           nearestSampleRate != sampleRate,
+           supported.contains(sampleRate / 2) {
+            nearest = sampleRate / 2
+        }
+
+        guard let nearest, nearest != previousSampleRate else { return }
+        defaultDevice?.setNominalSampleRate(nearest)
+        updateSampleRate(nearest, bitDepth: nil)
+        if let currentTrack {
+            trackAndSample[currentTrack] = nearest
+        }
+    }
+
     func trackDidChange(_ newTrack: TrackInfo) {
         self.previousTrack = self.currentTrack
         self.currentTrack = MediaTrack(trackInfo: newTrack)
         if self.previousTrack != self.currentTrack {
             self.renewTimer()
         }
+
+        // Fast path: query Music directly for sample rate without waiting for decoder logs.
+        // NSAppleScript must run on the main thread; result is captured for processQueue below.
+        let scriptSampleRate = getSampleRateFromAppleScript()
+
         processQueue.async { [unowned self] in
+            if let scriptSampleRate {
+                self.applyScriptSampleRate(scriptSampleRate)
+            }
             self.switchLatestSampleRate()
         }
     }

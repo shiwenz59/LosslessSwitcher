@@ -38,6 +38,7 @@ class OutputDevices: ObservableObject {
     var trackAndBitDepth = [MediaTrack : Int]()
     var previousTrack: MediaTrack?
     var currentTrack: MediaTrack?
+    private var confirmedTrack: MediaTrack?
     
     var timerActive = false
     var timerCalls = 0
@@ -154,6 +155,9 @@ class OutputDevices: ObservableObject {
     }
     
     func switchLatestSampleRate(recursion: Bool = false) {
+        if let confirmedTrack = confirmedTrack, confirmedTrack == currentTrack {
+            return
+        }
         let allStats = self.getAllStats()
         let defaultDevice = self.selectedOutputDevice ?? self.defaultOutputDevice
         
@@ -203,6 +207,7 @@ class OutputDevices: ObservableObject {
                     defaultDevice?.setNominalSampleRate(suitableFormat.mSampleRate)
                 }
                 self.updateSampleRate(suitableFormat.mSampleRate, bitDepth: Int(suitableFormat.mBitsPerChannel))
+                self.confirmedTrack = self.currentTrack
                 if let currentTrack = currentTrack {
                     self.trackAndSample[currentTrack] = suitableFormat.mSampleRate
                     self.trackAndBitDepth[currentTrack] = Int(suitableFormat.mBitsPerChannel)
@@ -303,6 +308,9 @@ class OutputDevices: ObservableObject {
     }
     
     private func applyScriptSampleRate(_ sampleRate: Double) {
+        if let confirmedTrack = confirmedTrack, confirmedTrack == currentTrack {
+            return
+        }
         let defaultDevice = self.selectedOutputDevice ?? self.defaultOutputDevice
         guard let supported = defaultDevice?.nominalSampleRates else { return }
 
@@ -327,6 +335,7 @@ class OutputDevices: ObservableObject {
         self.previousTrack = self.currentTrack
         self.currentTrack = MediaTrack(trackInfo: newTrack)
         if self.previousTrack != self.currentTrack {
+            self.confirmedTrack = nil
             self.renewTimer()
         }
 

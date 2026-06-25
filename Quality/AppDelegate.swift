@@ -58,9 +58,10 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     func applicationDidFinishLaunching(_ notification: Notification) {
         AppDelegate.instance = self
-        outputDevices = OutputDevices()
-        mrController = MediaRemoteController(outputDevices: outputDevices)
-        
+        // Detection stack (OutputDevices + MediaRemoteController) is owned by
+        // MenuBarController, which is also what the SwiftUI MenuBarExtra UI binds to.
+        // Creating a second stack here made two engines race over the audio device
+        // and ran the user script twice per track change.
         checkPermissions()
 //        
 //        let menu = NSMenu()
